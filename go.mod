@@ -37,4 +37,6 @@ require (
 // last synced: 2024-04
 // note: using replace directive below to point thenextwave at a local copy
 //       so I can experiment with frontend changes without publishing a module
+// TODO: periodically run `go get github.com/wavetermdev/thenextwave@main` once
+//       the local experiments are done and the module is published upstream
 replace github.com/wavetermdev/thenextwave => ../thenextwave
