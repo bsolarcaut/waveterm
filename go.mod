@@ -35,3 +35,6 @@ require (
 
 // personal fork - tracking upstream wavetermdev/waveterm
 // last synced: 2024-04
+// note: using replace directive below to point thenextwave at a local copy
+//       so I can experiment with frontend changes without publishing a module
+replace github.com/wavetermdev/thenextwave => ../thenextwave
