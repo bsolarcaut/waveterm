@@ -39,4 +39,10 @@ require (
 //       so I can experiment with frontend changes without publishing a module
 // TODO: periodically run `go get github.com/wavetermdev/thenextwave@main` once
 //       the local experiments are done and the module is published upstream
+//
+// NOTE: thenextwave local path assumes this repo and thenextwave are siblings
+//       on disk, e.g.:
+//         ~/projects/waveterm/
+//         ~/projects/thenextwave/
+//       Adjust the path below if your layout differs.
 replace github.com/wavetermdev/thenextwave => ../thenextwave
